@@ -78,4 +78,5 @@ input#btn{
 
 #ler{
     color: var(--bg-button-color);
+    font-weight: bold;
 }
