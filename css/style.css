@@ -54,7 +54,7 @@ form{
 
 input {
     height: 3em;
-    width: 52vw;
+    width: 55vw;
 }
 
 button {
@@ -76,4 +76,53 @@ button {
 
 #arrow {
     margin-left: 1em;
+}
+
+
+@media (max-width: 980px) {
+    body{
+        background-image: none;
+    }
+    main{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 650px){
+    input{
+        width: 390px;
+    }
+}
+
+@media (max-width: 490px){
+    body{
+        font-size: .9em;
+    }
+    article{
+        margin: .5em;
+    }
+    #logo{
+        height: 3em;
+        margin: .5em 0 3em .5em;
+    }
+    h1{
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        align-items: center;
+    }
+    input {
+        width: 80vw;
+        height: 1.8em;
+    }
+    button {
+        height: 2.1em;
+        width: 2.1em;
+        bottom: -1.09em;
+    }
+    button img {
+        
+    }
 }
